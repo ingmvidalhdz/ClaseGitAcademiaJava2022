@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+.fullpage {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.center {
+    display: block;
+    margin: 0px auto;
+}
+
+.section-1 {
+    background-image: url(https://neozink.com/resources/blog/4-git.jpg);
+    background-size: cover;
+}
+
+.section-2 {
+    background-image: url(https://io.dropinblog.com/uploaded/blogs/34244177/files/featured/que-es-git-y-como-utilizarlo.jpg);
+    background-size: cover;
+}
+
+.section-3 {
+    background-image: url(https://thelogisticsworld.com/wp-content/uploads/2021/12/servicios-paqueteria.jpg);
+    background-size: cover;
+}
+
+.section-4 {
+    background-image: url(https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/03/git-1.png);
+    background-size: cover;
+}
+
+.desc-section{
+    padding: 5vh;
+    background: rgba(0, 0, 0,0.5);
+    backdrop-filter: blur(2px);
+    width: 60%;
+    margin: 5vh auto;
+}
+
+.desc-git {
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fullpage h1 {
+    font-size: 100px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.fullpage a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    background: rgba(0, 153, 255, 0.5);
+    border-radius: 10%;
+}
+
+.imgs {
+    width: 60%;
+}
+
+.logo-git {
+    height: 300px;
+    width: 33%;
+    display: inline-block;
+}
+
+.btns {
+    width: 200px;
+    padding-top: 3vh;
+}
+
+.btn-play {
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-play:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    background: rgba(0, 153, 255, 0.9);
+}
+
+.git-control {
+    height: 60vh;
+    width: 50vw;
+    padding-top: 2vh;
+    border-radius: 30px;
+    transform: scale(0.5);
+}
+
+.git-control:hover{
+    transition: all 0.5s;
+    transform: scale(1);
+    box-shadow: 2px 2px 2px orange;
+}
